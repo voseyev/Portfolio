@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="build/tailwind.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap"
+      rel="stylesheet"
+    />
+    <script src="build/app.js" defer></script>
+  </head>
+  <body class="bg-gradient">
+    <div class="flex justify-end items-center h-screen-50 flex-col font-nova">
+      <p class="text-6xl text-gray-300">Vlad Oseyev</p>
+      <p class="text-xl text-gray-300">Fullstack Developer</p>
+    </div>
+    <div
+      class="flex justify-center items-start h-screen-50 text-blue-300 font-nova"
+    >
+      <button id="about-btn" class="btn">About</button>
+      <button id="project-btn" class="btn">Projects</button>
+      <button id="skills-btn" class="btn">Skills</button>
+    </div>
+    <div id="about" class="flex items-center flex-col h-screen-50 gap-24">
+      <div class="text-gray-300 text-2xl w-screen-75">
+        <span class="highlight">I love learning</span> about
+        <span class="highlight">new technologies</span> and
+        <span class="highlight">developing skills</span>
+        that will help me become a
+        <span class="highlight">better programmer</span> every day.
+        <span class="highlight">I like to problem solve</span> and create
+        software that <span class="highlight">makes a difference</span>. I want
+        to <span class="highlight">grow more</span> as a programmer by seeking
+        to <span class="highlight">constantly improve </span> and
+        <span class="highlight">exceed expectations</span>.
+      </div>
+      <div class="flex justify-center items-center gap-16 w-auto h-16">
+        <a
+          class="w-1/12"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=vladoseyev3@gmail.com"
+          target="_"
+        >
+          <img alt="gmail-icon" src="build/images/Gmail_icon.png" />
+        </a>
+        <a
+          class="w-1/12"
+          href="https://www.linkedin.com/in/vladoseyev/"
+          target="_"
+        >
+          <img alt="linkedin-icon" src="build/images/Linkedin_icon.png" />
+        </a>
+        <a class="w-1/12" href="https://github.com/voseyev" target="_">
+          <img
+            alt="github-icon"
+            src="build/images/GitHub-Mark-Light-120px-plus.png"
+          />
+        </a>
+      </div>
+    </div>
+    <div id="projects" class="flex justify-center items-center h-screen">
+      <div
+        class="grid grid-cols-2 justify-center h-screen-75 w-screen-50 gap-32 text-white"
+      >
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+    </div>
+    <div id="skills" class="flex items-center justify-center h-screen-75">
+      <div class="flex justify-center items-center">
+        <div class="grid grid-cols-2 text-2xl text-gray-300 w-screen-75">
+          <div class="flex justify-center">
+            <ul>
+              <li class="skill">Javascript</li>
+              <li class="skill">HTML</li>
+              <li class="skill">CSS</li>
+              <li class="skill">React</li>
+              <li class="skill">Express</li>
+              <li class="skill">Node</li>
+            </ul>
+          </div>
+          <div class="flex justify-center">
+            <ul>
+              <li class="skill">Java</li>
+              <li class="skill">Python</li>
+              <li class="skill">Firebase</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
